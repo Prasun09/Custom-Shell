@@ -29,14 +29,7 @@ Handle signals to prevent zombie processes
 ✅ Colored prompt displaying current directory
 ✅ Signal handling for background process completion
 
-🧠 System Calls Used
-Function      	             Purpose
-fork()	                  Create new process
-execvp() / execv()	      Execute a command
-waitpid()	                Wait for child process
-open(), dup2(), close()  	I/O redirection
-pipe()	                  Setup command piping
-signal()	                Handle SIGCHLD for background jobs
+
 
 📂 Project Structure
 custom_shell/
